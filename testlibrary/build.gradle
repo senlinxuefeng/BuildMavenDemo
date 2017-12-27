@@ -66,7 +66,7 @@ bintray {
     key = properties.getProperty("bintray.apikey")
     configurations = ['archives']
     pkg {
-        repo = "weimingchuan/maven"    //这是刚刚在创建maven库时的name
+        repo = "maven"    //这是刚刚在创建maven库时的name
         name = "FirstMaven"   //发布到JCenter上的项目名字
         websiteUrl = siteUrl
         vcsUrl = gitUrl
